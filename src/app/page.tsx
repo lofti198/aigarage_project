@@ -3,6 +3,11 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
+      <section className="flex w-full items-center justify-center bg-black py-24 px-8">
+        <h1 className="text-center text-7xl font-black uppercase tracking-tighter text-white sm:text-8xl md:text-9xl lg:text-[10rem]">
+          Lets go na PEREKUR)
+        </h1>
+      </section>
       <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
         <Image
           className="dark:invert"
